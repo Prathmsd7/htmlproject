@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Addmission Form </title>
+    <link rel="stylesheet" href="./CSS/forrm.css">
+  
+</head>
+<body>
+    <form>
+      <fieldset>
+        <legend style="color:red" >:Student Application form :</legend>
+        Date:<input type="date" >
+        Time:<input type="time">
+        <br>
+        <br>
+    <label style="color: darkred;" for="Application No">Application No:</label>
+    <input type="text" name="Application No" placeholder="Application No" maxlength="10" required>
+     
+     <br>
+     <br>
+ 
+    <label class="para" for="StudentName">Student Name:</label>
+    <input type="text" name="StudentName" placeholder="Name" required>
+
+     <br>
+     <br>
+       
+    <label id="opp1" for="Address">Address:</label>
+    <input type="text" name="Address" placeholder="Address">
+   
+     <br>
+     <br>
+     
+    <label for="Parents Mobile Number">Parents Mobile Number:</label>
+    <input type="text" name="Parents Mobile Number" placeholder="Mobile Number" maxlength="10">
+
+     <br>
+     <br>
+
+    <label for="AadharCard Number">Adhar Card:</label>
+    <input type="text" name="AdharCard Number" placeholder="AadharCard Number" maxlength="12" required>
+
+     <br>
+     <br>
+     Date of Birth:<input type="date">
+     <br>
+     <br>
+    
+    <label class="ppe2" for="Born city"> Born City</label>
+    <select name="Born City" >
+      <option id="oop2">Pune</option>
+      <option>Mumbai</option>
+      <option>Kolhapur</option>
+      <option>Nashik</option>
+      <option>indoor</option>
+    </select>
+      <br>
+      <h3 style="color: blue;">Select Your Medium</h3>
+    <select>
+      <option value="">Semi-English</option>
+      <option value="">English</option>
+      <option value="">Marathi</option>
+      <option value="">Science</option>
+      <option value="">Commerce</option>
+      <option value="">Arts</option>
+    </select>
+    <br>
+    <br>
+      <h3 style="color: blue;">Select Your Standard</h3>
+    <select>
+         <optgroup label="Standard">
+        <option value="">8th</option>
+        <option value="">9th</option>
+        <option value="">10th</option>
+        <option value="">11th</option>
+        <option value="">12th</option>
+         </optgroup>
+    </select>
+    <h3 style="color: blue;">Select Division</h3>
+    <select>
+      <option>A Div</option>
+      <option>B Div</option>
+      <option>C Div</option>
+    </select>
+
+      <br>
+    
+    <h3 style="color: blue;">Do you have All Documents?</h3>
+    <input type="checkbox" name="Pan card">Pan Card<br>
+    <input type="checkbox" name="AdharCard">AdharCard<br>
+    <input type="checkbox" name="cast certificate">Cast certificate<br>
+    <input type="checkbox" name="school leaving certificate">School leaving<br>
+    <input type="checkbox" name="Result">Result
+    <br>
+    <br>
+    
+  <label style="color: red;">Gender</label><br>
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female<br>
+       
+      <h3 style="color: blue;">Write your review here</h3>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    
+    <h3 style="color: blue;">Upload Your Documets Here</h3>
+    Cast certificate :<input type="file" required><br>
+    School Leaving :<input type="file" required><br>
+    Results:<input type="file" required>
+    <br>
+    <br>
+
+    <input type="Reset" value="Reset">
+    <input type="submit" value="submit">
+    
+
+   </fieldset>
+   </form>
+   <link rel="shortcut icon" href="pexels-pixabay-259915.jpg">
+</body>
+</html>
